@@ -1,2 +1,2 @@
 # appys
-es un repositorio nuevo
+es un repositorio nuevo en php

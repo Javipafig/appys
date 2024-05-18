@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'archiaregular';
+    src: url('fonts/archia-regular-webfont.eot');
+    src: url('fonts/archia-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/archia-regular-webfont.woff2') format('woff2'),
+         url('fonts/archia-regular-webfont.woff') format('woff'),
+         url('fonts/archia-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .login-page {
+    width: 360px;
+    margin: auto;
+    float: center;
+  }
+  .form {
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+  
+  .button {
+    font-family: "Archia";
+    text-transform: uppercase;
+    outline: 0;
+    background: #87CEFA;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #2F4F4F;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  .form .message {
+    margin: 15px 0 0;
+    color: #2F4F4F;
+    font-size: 12px;
+  }
+  .form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  .form .register-form {
+    display: none;
+  }
+  .container {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .container:before, .container:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .container .info {
+    margin: 50px auto;
+    text-align: center;
+  }
+  .container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+  }
+  .container .info span {
+    color: #4d4d4d;
+    font-size: 12px;
+  }
+  .container .info span a {
+    color: #000000;
+    text-decoration: none;
+  }
+  .container .info span .fa {
+    color: #EF3B3A;
+  }
+  body {
+    background-color: #030317;
+    background: -moz-linear-gradient(top, #F5DEB3 0%, #CEE7FF 100%, #FFFFFF 100%);
+    /*background: -webkit-linear-gradient(top, #F5DEB3 0%, #CEE7FF 100%, #FFFFFF 100%);*/
+    /*background: linear-gradient(to top, #F5DEB3 0%, #CEE7FF 100%, #FFFFFF 100%);*/
+    overflow-x: hidden;
+    font-family: archiaregular;
+  }
+  .menu_desplegable
+  {
+     margin-top: -30px;
+     margin-right: 200px;
+     width: 200px;
+  }
+  .sidebar-submenu ul{
+    list-style: none;
+  }
+  .sidebar-submenu ul li{
+    display: inline-block;
+    text-decoration: none;
+  }
+  .imag{
+    border-left: 600px;
+  }
